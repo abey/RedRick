@@ -1,0 +1,59 @@
+{
+	"option_2": [{
+			"id": 1,
+			"name": "Double Bow"
+		},
+		{
+			"id": 2,
+			"name": "Triple Bow"
+		},
+		{
+			"id": 3,
+			"name": "Control Box"
+		},
+		{
+			"id": 4,
+			"name": "Power Bar (6 outlet)"
+		},
+		{
+			"id": 5,
+			"name": "Handle Set"
+		},
+    {
+			"id": 6,
+			"name": "Barco Transition Bracket"
+		},
+    {
+			"id": 7,
+			"name": "Swing Arm Extenders"
+		},
+    {
+			"id": 8,
+			"name": "Vertical Monitor Rail"
+		},
+    {
+			"id": 9,
+			"name": "Vertical Adjusters"
+		},
+    {
+			"id": 10,
+			"name": "Ambient Light (Desk Mount)"
+		},
+    {
+			"id": 11,
+			"name": "Light Switch"
+		},
+    {
+			"id": 12,
+			"name": "Transformer"
+		},
+    {
+			"id": 13,
+			"name": "Hardware"
+		},
+		{
+			"id": 14,
+			"name": "Cables"
+		}
+	]
+}

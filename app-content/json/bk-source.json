@@ -1,0 +1,129 @@
+[{
+		"code": "DB",
+		"name": "Double Bow"
+	},
+	{
+		"code": "TPB",
+		"name": "Triple Bow"
+	},
+	{
+		"code": "CB",
+		"name": "Control Box"
+	},
+	{
+		"code": "PB6O",
+		"name": "Power Bar (6 outlet)"
+	},
+	{
+		"code": "HS",
+		"name": "Handle Set"
+	},
+	{
+		"code": "BTB",
+		"name": "Barco Transition Bracket"
+	},
+	{
+		"code": "SAE",
+		"name": "Swing Arm Extenders"
+	},
+	{
+		"code": "VMR",
+		"name": "Vertical Monitor Rail"
+	},
+	{
+		"code": "VA",
+		"name": "Vertical Adjusters"
+	},
+	{
+		"code": "ALBM",
+		"name": "Ambient Light (Base Mount)"
+	},
+	{
+		"code": "LS",
+		"name": "Light Switch"
+	},
+	{
+		"code": "HW",
+		"name": "Hardware"
+	},
+	{
+		"code": "CBL",
+		"name": "Cables"
+	},
+	{
+		"code": "ALDM",
+		"name": "Ambient Light (Desk Mount)"
+	},
+	{
+		"code": "TFR",
+		"name": "Transformer"
+	},
+	{
+		"code": "CVSTA",
+		"name": "CV Single Tower Assembly"
+	},
+	{
+		"code": "MRCP",
+		"name": "Monitor rail connector plate"
+	},
+	{
+		"code": "PBT",
+		"name": "Power Bar Tray"
+	},
+	{
+		"code": "TFRT",
+		"name": "Transformer Tray"
+	},
+	{
+		"code": "BCR",
+		"name": "Base Covers"
+	},
+	{
+		"code": "TPCOL",
+		"name": "Top Colour"
+	},
+	{
+		"code": "HIDTP",
+		"name": "Holes in Desktop"
+	},
+	{
+		"code": "CVF",
+		"name": "CVF"
+	},
+	{
+		"code": "CV4",
+		"name": "CV4"
+	},
+	{
+		"code": "CMGP",
+		"name": "Cable Management Panel"
+	},
+	{
+		"code": "CPUH",
+		"name": "CPU Hanger"
+	},
+	{
+		"code": "UPSH",
+		"name": "UPS Hanger"
+	},
+	{
+		"code": "FTRST",
+		"name": "Footrest"
+	},
+	{
+		"code": "HDPKG",
+		"name": "Hardware Package"
+	},
+	{
+		"code": "CV2",
+		"name": "CV2"
+	},
+	{
+		"code": "DPLF",
+		"name": "Drop Leaf"
+	},
+	{
+		"code": "CV1WS",
+		"name": "CV1 Add-on Wing Support"
+	}
+]

@@ -1,0 +1,71 @@
+{
+	"option_2": [{
+			"id": 1,
+			"name": "CV Single Tower Assembly"
+		},
+		{
+			"id": 2,
+			"name": "Double Bow"
+		},
+		{
+			"id": 3,
+			"name": "Triple Bow"
+		},
+		{
+			"id": 4,
+			"name": "Monitor rail connector plate"
+		},
+		{
+			"id": 5,
+			"name": "Control Box"
+		},
+    {
+			"id": 6,
+			"name": "Power Bar Tray"
+		},
+    {
+			"id": 7,
+			"name": "Transformer Tray"
+		},
+    {
+			"id": 8,
+			"name": "Handle Set"
+		},
+    {
+			"id": 9,
+			"name": "Barco Transition Bracket"
+		},
+    {
+			"id": 10,
+			"name": "Swing Arm Extenders"
+		},
+    {
+			"id": 11,
+			"name": "Vertical Adjusters"
+		},
+    {
+			"id": 12,
+			"name": "Ambient Light (Desk mount)"
+		},
+    {
+			"id": 13,
+			"name": "Light Switch"
+		},
+		{
+			"id": 14,
+			"name": "Transformer"
+		},
+    {
+			"id": 15,
+			"name": "Hardware"
+		},
+    {
+			"id": 16,
+			"name": "Base Covers"
+		},
+    {
+			"id": 17,
+			"name": "Cables"
+		}
+	]
+}

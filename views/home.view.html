@@ -1,0 +1,47 @@
+
+<div class="row">
+
+  <div class="col-md-6 section">
+    <h2>Search Products</h2>
+    <img src="app-content/loading.gif" ng-if="redrick.loading"/>
+    <hr />
+    <div class="row section">
+        <p>Select Option One</p>
+        <select ng-model="optionOne" ng-options="op1 as op1.name for op1 in option_1">
+        </select>
+        <input ng-show="optionOne" class="btn btn-info btn-sm" type="button" value="Lock Option One" ng-click="redrick.optionOneSelected()" />
+    </div>
+      <hr />
+      <div class="row section">
+          <p>Select Option Two</p>
+          <select ng-model="optionTwo" ng-options="op2 as op2.name for op2 in option_2">
+          </select>
+          <input ng-show="optionTwo" class="btn btn-info btn-sm" type="button" value="Lock Option Two" ng-click="redrick.optionTwoSelected()" />
+      </div>
+    <hr />
+    <div >
+      <div ng-show="redrick.noProducts" class="alert alert-warning">
+        There are no products listed under <strong>{{redrick.pdtData1}}</strong> >> <strong>{{redrick.pdtData2}}</strong> category.
+      </div>
+    </div>
+    <div ng-show="!redrick.noProducts" class="row section">
+        <p>Select Option Three</p>
+        <select ng-model="optionThree" ng-options="op3 as op3.name for op3 in option_3">
+        </select>
+        <input ng-show="optionThree" class="btn btn-info btn-sm" type="button" value="Lock Option Three" ng-click="redrick.optionThreeSelected()" />
+    </div>
+    <hr />
+  </div>
+
+  <div class="col-md-5 section">
+      <h2>Product Details</h2>
+      <div ng-show="redrick.option3">
+        <p>Option One: <b>{{optionOne.name}}</b></p>
+        <p>Option Two: <b>{{optionTwo.name}}</b></p>
+        <p>Option Three: <b>{{optionThree.name}}</b></p>
+        <img id="productBarcode"/>
+      </div>
+  </div>
+
+
+</div>

@@ -1,0 +1,55 @@
+{
+	"option_2": [{
+			"id": 1,
+			"name": "Top Colour"
+		},
+		{
+			"id": 2,
+			"name": "Holes in Desktop"
+		},
+		{
+			"id": 3,
+			"name": "CVF"
+		},
+		{
+			"id": 4,
+			"name": "CV4"
+		},
+		{
+			"id": 5,
+			"name": "Control Box"
+		},
+    {
+			"id": 6,
+			"name": "Cable Management Panel"
+		},
+    {
+			"id": 7,
+			"name": "CPU Hanger"
+		},
+    {
+			"id": 8,
+			"name": "UPS Hanger"
+		},
+    {
+			"id": 9,
+			"name": "Footrest"
+		},
+    {
+			"id": 10,
+			"name": "Ambient Light (Desk mount)"
+		},
+    {
+			"id": 11,
+			"name": "Light Switch"
+		},
+    {
+			"id": 12,
+			"name": "Transformer"
+		},
+		{
+			"id": 13,
+			"name": "Hardware Package"
+		}
+	]
+}

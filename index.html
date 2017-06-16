@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="redrickApp">
+<head>
+    <meta charset="utf-8" />
+    <title>RedRick Inventory Management Tool</title>
+    <link href="app-content/css/barcode128.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="app-content/css/index.css" />
+</head>
+<body>
+    <div class="container">
+    <div class="mainContainer">
+      <nav class="navbar navbar-inverse bg-inverse">
+        <h1 style="text-align: center; padding-bottom: 0.6em; color: white; font-size: 2em;">RedRick Inventory Management System</h1>
+        <ul class="nav nav-pills nav-justified navitems">
+          <li class="nav-item">
+            <a class="nav-link" href="#/home"><i class="fa fa-list-ul" aria-hidden="true"></i>Products</a>
+          </li>
+        </ul>
+      </nav>
+      <div ng-view></div>
+    </div>
+    </div>
+
+    <script src="//code.angularjs.org/1.4.1/angular.min.js"></script>
+    <script src="//code.angularjs.org/1.4.1/angular-route.min.js"></script>
+    <script src="//code.angularjs.org/1.4.1/angular-cookies.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script type="text/javascript" src="app-content/js/barcode128.js"></script>
+    <script src="controllers/home.controller.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+{
+	"option_2": [{
+			"id": 1,
+			"name": "Top Colour"
+		},
+		{
+			"id": 2,
+			"name": "Holes in Desktop"
+		},
+		{
+			"id": 3,
+			"name": "CVF"
+		},
+		{
+			"id": 4,
+			"name": "CV4"
+		},
+    {
+			"id": 5,
+			"name": "CV2"
+		},
+    {
+			"id": 6,
+			"name": "Control Box"
+		},
+    {
+			"id": 7,
+			"name": "CV1 Add-on Wing Support"
+		},
+    {
+			"id": 8,
+			"name": "Cable Management Panel"
+		},
+    {
+			"id": 9,
+			"name": "CPU Hanger"
+		},
+    {
+			"id": 10,
+			"name": "UPS Hanger"
+		},
+    {
+			"id": 11,
+			"name": "Footrest"
+		},
+    {
+			"id": 12,
+			"name": "Ambient Light (Desk mount)"
+		},
+    {
+			"id": 13,
+			"name": "Light Switch"
+		},
+    {
+			"id": 14,
+			"name": "Transformer"
+		},
+		{
+			"id": 15,
+			"name": "Hardware Package"
+		}
+	]
+}
