@@ -31,6 +31,23 @@
                 templateUrl: 'views/search.view.html',
                 controllerAs: 'redrick'
             })
+            .when('/Home', {
+                controller: 'HomeController',
+                templateUrl: 'views/home.view.html',
+                controllerAs: 'redrick'
+            })
+
+            .when('/Product', {
+                controller: 'ProductController',
+                templateUrl: 'views/product.view.html',
+                controllerAs: 'redrick'
+            })
+
+            .when('/Search', {
+                controller: 'SearchController',
+                templateUrl: 'views/search.view.html',
+                controllerAs: 'redrick'
+            })
 
             .otherwise({ redirectTo: '/home' });
     }

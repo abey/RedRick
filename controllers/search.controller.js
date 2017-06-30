@@ -10,6 +10,8 @@
     function SearchController($location, $parse, $scope, $rootScope, config) {
         var redrick = this;
         redrick.invalid = false;
+        redrick.op2 = null;
+        redrick.op3 = null;
         var token = null;
 
         redrick.search = function() {
@@ -22,10 +24,10 @@
               redrick.invalid = true;
           }
           else {
+            redrick.invalid = false;
             checkOption1(redrick.option1);
             checkOption2(redrick.option2);
             checkOption3(redrick.option3);
-            redrick.invalid = false;
           }
         };
 
@@ -38,9 +40,11 @@
                   redrick.invalid = true;
                 }
                 else {
+                  redrick.invalid = false;
                   redrick.op1 = data.option_1[op1-1].name;
                   redrick.op1_code = data.option_1[op1-1].id;
                 }
+                $scope.$digest();
             });
         }
 
@@ -67,6 +71,13 @@
                       redrick.op2_code = data.option_2[i].id;
                     }
                 }
+                if(redrick.op2 == null) {
+                  redrick.invalid = true;
+                }
+                else {
+                  redrick.invalid = false;
+                }
+                $scope.$digest();
             });
         }
 
@@ -76,16 +87,20 @@
                 var data = JSON.parse(text);
                 var the_string = "option_3_" + redrick.op1_code + "_" + redrick.op2_code;
                 var option_3_source = data[the_string];
-                for(var i=0; i<option_3_source.length; i++)
-                {
-                    if ((op3) == option_3_source[i].id)
-                    {
-                      redrick.op3 = option_3_source[i].name;
-                    }
+                if(option_3_source != null) {
+                  redrick.invalid = false;
+                  for(var i=0; i<option_3_source.length; i++)
+                  {
+                      if ((op3) == option_3_source[i].id)
+                      {
+                        redrick.op3 = option_3_source[i].name;
+                      }
+                  }
                 }
-                if(redrick.op3 == null) {
+                else {
                   redrick.invalid = true;
                 }
+                $scope.$digest();
             });
         }
 
