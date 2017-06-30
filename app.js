@@ -20,6 +20,18 @@
                 controllerAs: 'redrick'
             })
 
+            .when('/product', {
+                controller: 'ProductController',
+                templateUrl: 'views/product.view.html',
+                controllerAs: 'redrick'
+            })
+
+            .when('/search', {
+                controller: 'SearchController',
+                templateUrl: 'views/search.view.html',
+                controllerAs: 'redrick'
+            })
+
             .otherwise({ redirectTo: '/home' });
     }
 
